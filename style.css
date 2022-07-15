@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(233, 240, 240);
+
+}
+
+.inputLocal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.inputWrite {
+    border: 2px solid transparent;
+    margin-right: 5px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(215, 224, 224);
+}
+
+.listaAnagrams {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.itemAnagram {
+    padding: 5px;
+}
